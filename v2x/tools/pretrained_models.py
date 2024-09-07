@@ -34,7 +34,7 @@ class HFTranslator(BaseTranslator):
         except ValueError as e:
             raise ValueError(f"`model_id` is in wrong format: {e}")
 
-    def translate(self, text: str) -> str:
+    def run(self, text: str) -> str:
         """
         Translates the input text using the pre-trained model.
 
