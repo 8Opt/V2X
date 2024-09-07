@@ -1,0 +1,6 @@
+googletrans==4.0.0rc1
+nltk==3.8.1
+numpy==2.1.1
+transformers==4.43.3
+translate==3.6.1
+sacremoses
