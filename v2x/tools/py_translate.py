@@ -1,7 +1,7 @@
 from v2x.pre_processing import clean
 from v2x.tools.base import BaseTranslator
 
-class Translator(BaseTranslator):
+class PyTranslator(BaseTranslator):
 
     def __init__(self, from_lang='vi', to_lang='en', auto_clean=False):
         super().__init__(from_lang=from_lang, to_lang=to_lang, auto_clean=auto_clean)
